@@ -1,12 +1,13 @@
 package generator
 
 import (
-	"cpftools/src/calculator"
 	"fmt"
 	"math/rand"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/drummerzzz/cpftools/src/calculator"
 )
 
 func generateVerifyDigits(cpfWithoutVerifyDigits []string) string {

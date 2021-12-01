@@ -1,9 +1,10 @@
-package main
+package cpftools
 
 import (
-	"cpftools/src/generator"
-	"cpftools/src/validator"
 	"fmt"
+
+	"github.com/drummerzzz/cpftools/src/generator"
+	"github.com/drummerzzz/cpftools/src/validator"
 )
 
 // Generate a cpf with mask

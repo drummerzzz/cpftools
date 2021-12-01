@@ -1,10 +1,11 @@
 package validator
 
 import (
-	"cpftools/src/calculator"
-	"cpftools/src/utils"
 	"errors"
 	"fmt"
+
+	"github.com/drummerzzz/cpftools/src/calculator"
+	"github.com/drummerzzz/cpftools/src/utils"
 )
 
 func hasCorrectLength(cpf string) bool {

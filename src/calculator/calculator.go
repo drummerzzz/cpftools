@@ -1,8 +1,9 @@
 package calculator
 
 import (
-	"cpftools/src/utils"
 	"strconv"
+
+	"github.com/drummerzzz/cpftools/src/utils"
 )
 
 func CalcDigit(cpf string, isFirstVerifyDigit bool) int {
